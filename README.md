@@ -8,3 +8,10 @@
     onFilterChanges = (e) => {
         this.setState({ selectedPlatform: e.value });
     };
+
+
+ const data = [
+            { id: '1', platformName: 'Platform A' },
+            { id: '2', platformName: 'Platform B' },
+            { id: '3', platformName: 'Platform C' }
+        ];
